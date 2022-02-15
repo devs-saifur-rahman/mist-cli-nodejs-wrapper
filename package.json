@@ -1,0 +1,32 @@
+{
+    "name": "mist-cli-nodejs-wrapper",
+    "version": "1.0.0",
+    "description": "A wrapper for mist-cli",
+    "main": "index.js",
+    "repository": "git@github.com:devs-saifur-rahman/mist-cli-nodejs-wrapper.git",
+    "author": "Saifur - Dev <devs.saifur.rahman@gmail.com>",
+    "license": "GPL-3.0-or-later",
+    "private": false,
+    "scripts": {
+        "start": "node index.js",
+        "debug": "set NODE_ENV=development&& nodemon index.js",
+        "production": "set NODE_ENV=production&& npm run start"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "cors": "^2.8.5",
+        "debug": "^4.3.3",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "express-validator": "^6.14.0",
+        "express-winston": "^4.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.3.0",
+        "winston": "^3.6.0",
+        "winston-daily-rotate-file": "^4.6.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
